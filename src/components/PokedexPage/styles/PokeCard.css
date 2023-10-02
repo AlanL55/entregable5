@@ -1,0 +1,170 @@
+.poke__card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1em solid black;
+    border-radius: 1em;
+    cursor: pointer;
+    transition: transform 300ms ease;
+}
+.poke__card:hover{
+    box-shadow: 0.5em 0.5em 0.5em gray;
+    text-shadow: 0.1em 0.1em 0.1em lightgray;
+    transform: scale(1.05);
+}
+.poke__header{
+    display: flex;
+    justify-content: center;
+}
+.poke__img{
+    width: 220px;
+    position: absolute;
+    display: block;
+}
+.poke__section{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.571);
+    margin: 1em;
+    padding-top: 5em;
+    margin-top: 7em;
+}
+.poke__title{
+    font-size: 2em;
+    padding-top: 1em;
+}
+.poke__info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.poke__types{
+    margin: 0%;
+    font-size: 1.2em;
+    margin: 0.5em;
+}
+.poke__type__list{
+    display: flex;
+    justify-content: space-evenly;
+}
+.poke__item{
+    color:rgb(231, 230, 230);
+    padding: 0.5em 1em 0.5em 1em;
+    border-radius: 2em;
+    margin: 0.5em;
+    margin-bottom: 1em;
+}
+.poke__ability{
+    font-size: 1.2em;
+}
+.poke__ability__list{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5em ;
+    align-items: center;
+    padding: 0%;
+    margin-bottom: 1em;
+}
+.poke__ability__item{
+    border: 0.2em solid;
+    border-radius: 1em;
+    padding: 0.4em;
+}
+.poke__stat{
+    font-size: 1.2em;
+}
+.poke__stat__list{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    margin: 1em;
+}
+.poke__stat__item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 1em;
+    border: 0.2em solid;
+    padding: 0.3em;
+}
+.poke__stat__info{
+    font-size: 1.1em;
+    font-weight: 800;
+}
+hr{
+    width: 70%;
+    color: #DD1A1A;
+}
+.fire-gradient, .fire-border{
+    background: linear-gradient(#F96D6F, #E35825, #E8AE1B);
+    border-color: orange;
+}
+.water-gradient, .water-border{
+    background: linear-gradient(#133258, #1479FB, #82B2F1);
+    border-color: aqua;
+}
+.grass-gradient, .grass-border{
+    background: linear-gradient(#7EC6C5, #ABDAC6, #CAE099);
+    border-color: green;
+}
+.rock-gradient, .rock-border{
+    background: linear-gradient(#7E7E7E, #8D8D94, #D3D3D3);
+    border-color: rgb(78, 43, 43);
+}
+.ground-gradient, .ground-border{
+    background: linear-gradient(#654008, #895C1A, #D69638);
+    border-color: burlywood;
+}
+.bug-gradient, .bug-border{
+    background: linear-gradient(#62DB60, #3BB039, #AAFFA8);
+    border-color: rgb(132, 203, 26);
+}
+.normal-gradient, .normal-border{
+    background: linear-gradient(#735259, #BC6B7C, #7C3F4C);
+    border-color: brown;
+}
+.fighting-gradient, .fighting-border{
+    background: linear-gradient(#96402A, #F1613C, #CB735D);
+    border-color: rgb(142, 18, 18);
+}
+.psychic-gradient, .psychic-border{
+    background: linear-gradient(#b023ab, #ab4dd0, #f1d7ed);
+    border-color: rgb(232, 105, 217);
+}
+.dark-gradient{
+    background: linear-gradient(#030706, #0D1211, #5A5E5D);
+}
+.ghost-gradient, .ghost-border{
+    background: linear-gradient(#323569, #454AA8, #787DDA);
+    border-color: #323569;
+}
+.dragon-gradient, .dragon-border{
+    background: linear-gradient(#478A93, #56A4AE, #A2BEC1);
+    border-color:#3d757c ;
+}
+.poison-gradient, .poison-border{
+    background: linear-gradient(#5B3184, #A564E3, #CE9BFF);
+    border-color: #803a9c;
+}
+.steel-gradient, .steel-border{
+    background: linear-gradient(#5E736C, #728881, #A8A8A8);
+    border-color: gray;
+}
+.fairy-gradient, .fairy-border{
+    background: linear-gradient(#971B45, #C23867, #CD7D98);
+    border-color: #971B45;
+}
+.electric-gradient, .electric-border{
+    background: linear-gradient(#dcd818, #9cae28, #f0d899);
+    border-color: #cac729;
+}
+.ice-gradient, .ice-border{
+    background: linear-gradient(#6FBEDF, #64CBF5, #BDEBFE);
+    border-color: #66bdc8;
+}
+.flying-gradient{
+    background: linear-gradient(#18bc93, #88b1e7, #aed8ce);
+    border-color: #56A4AE;
+}

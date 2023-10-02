@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Shadows+Into+Light&display=swap');
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+:root{
+    --select-border: #777;
+    --select_focus: lightcyan;
+    --select-arrow: var(--select-border)
+}
+html{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'Inclusive Sans', sans-serif;;
+}
+h1, h2, h3, ul, hr{
+    margin-top: 0;
+    margin-bottom: 0;
+    color: black;
+}
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+input{
+    outline: none;
+    border: none;
+    font-family: inherit;
+}
+button{
+    font-family: inherit;
+    cursor: pointer;
+}
+select{
+    appearance: none;
+    border: none;
+    padding: 0 1em 0 0;
+    margin: 0;
+    width: 100%;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+    line-height: inherit;
+    outline: none;
+}

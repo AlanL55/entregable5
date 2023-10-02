@@ -1,0 +1,235 @@
+/* HomePage */
+.home__container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+
+}
+.home__card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+}
+.home__img{
+    width: 676px;
+    padding: 2em;
+}
+.home__welcome{
+    font-size: 3rem;
+    color: red;
+}
+.home__text{
+    font-size: 1.5em;
+}
+.home__input{
+    padding: 0.5em;
+    font-size: 1.5em;
+    background-color: lightgray;
+}
+.home__button{
+    padding: 0.5em;
+    border: none;
+    font-size: 1.5em;
+    background-color: red;
+    color: white;
+}
+.home__rectangle__upper{
+    height: 10%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+}
+.home__rectangle__lower{
+
+    height: 10%;
+    background-color: black;
+}
+.home__circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 2em;
+    position: relative;
+    width: 6em;
+    height: 6em;
+    background-color: white;
+    border-radius: 50%;
+    border: 1em solid black;
+}
+.home__circle__minor{
+    background-color: black;
+    border-radius: 50%;
+    width: 3em;
+    aspect-ratio: 1;
+    
+}
+/* PokedexPage */
+.pokedex__cards{
+    padding-top: 2em;
+    margin: 0%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+} 
+.pokedex__img{
+    width: 100%;
+}
+.pokedex__greet{
+    text-align: center;
+    font-size: 1.7em;
+    margin: 1em;
+}
+.pokedex__menus{
+    display: flex;
+    justify-content: space-evenly;
+}
+.pokedex__form{
+    display: flex;
+    justify-content: center;
+}
+.pokedex__input{
+    background-color: lightgray;
+    font-size: 1.5em;
+    padding: 0.5em;
+}
+.pokedex__button{
+    font-size: 1.2em;
+    border: none;
+    background-color: #DD1A1A;
+    color: white;
+    padding: 1em ;
+}
+
+/* SelectType */
+.type__container{
+    width: 22vw;
+}
+.type__menu{
+    background-color: #DD1A1A;
+    font-size: 1.5em;
+    padding: 1em;
+    color: white;
+}
+/* Pagination */
+.pagination__container{
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+.pagination__list{
+    display: flex;
+}
+.pagination__number{
+    border: none;
+    font-size: 1.4em;
+    padding: 0.5em;
+    transition:  transform 100ms ease;
+}
+.pagination__number:hover{
+    background-color: #DD1A1A;
+    color: white;
+    transform: scale(1.1);
+}
+.is__current{
+    background-color: #DD1A1A;
+    color: white;
+    transform: scale(1.1);
+}
+/* PokedexIdPage */
+.id__page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.id__title__img{
+    width: 100%;
+}
+.id__card{
+    padding: 2em;
+    margin: 3em;
+    width: 60%;
+    border: 1em solid;
+}
+.id__header{
+    display: flex;
+    justify-content: center;
+}
+.id__img{
+    position: absolute;
+    width: 20vw;
+}
+.id__container{
+    margin-top: 9em;
+    padding-top: 9em;
+    background-color: white;
+}
+.id__title{
+    text-align: center;
+}
+.id__types{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.id__type__item{
+    color: aliceblue;
+    margin: 1em;
+    padding: 1em;
+    border: 1px solid;
+    border-radius: 1em;
+}
+.id__list{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 1em;
+}
+.id__item{
+    display: flex;
+    flex-direction: column;
+    border-radius: 1em;
+    border: 0.2em solid;
+    padding: 0.5em;
+    margin: 0.5em;
+    background: rgba(211, 211, 211, 0.318);
+}
+.id__statName{
+    font-size: 1.2em;
+    margin: 0.5em;
+}
+.id__movements{
+    text-align: center;
+    margin: 1em;
+}
+.id__movements__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.id__movement__item{
+    border: 3px solid;
+    background: rgba(211, 211, 211, 0.318);
+    border-radius: 1em;
+    padding: 0.4em;
+    margin: 0.5em;
+}
+/* Loader */
+.loader__container{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.loader__screen__img{
+    width: 50%;
+}
